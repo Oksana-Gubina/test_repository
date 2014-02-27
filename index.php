@@ -26,6 +26,7 @@ for ($i= 0; $i< $count; $i++)
 <tr>
 	<td><input type = 'hidden' id = 'hidden1' value = '<?php echo $category[$i]['id']?>'/></td>
 	<td><input type = 'button' id = 'edit' value = 'edit'  onClick = 'javascript:somefunc(this)' /></td>
+	<td><input type = 'button' id = 'edit' value = 'ok'  onClick = 'javascript:somefunc(this)' /></td>
 	<td> <a href ='articles.php?id=<?php echo $category[$i]['id']?>'> <?php echo $category[$i]['name']?></a> </td>
 	<td><input type = 'checkbox' class = "check " name = 'cb[]' value = '<?php echo $category[$i]['id']?> '/></br></td>
 </tr>
